@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Nemokami Filmai</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/lightslider.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Karantina&family=Raleway:wght@600&family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+<style>
+	h1 {
+		font-family: 'Roboto Slab', serif;
+	}
+	
+	strong {
+		font-family: 'Roboto Slab', serif;
+	}
+	
+	a {
+		font-family: 'Roboto Slab', serif;
+	}
+	
+	div {
+		font-family: 'Roboto Slab', serif;
+	}
+</style>
+<!--js-link----->
+<script src="js/JQuery3.3.1.js"></script>
+<script src="js/lightslider.js"></script>
+<!--fav-icon-------->
+<link rel="shortcut icon" href="images/fav icon.png"/>
+<!--using FontAwesome--->
+<script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<!--navigation---------->
+	<nav>
+		<!--logo-------->
+		<a href="index.html" class="logo">
+			<img src="images/logo.png"/>
+		</a>
+		<!--menu----->
+		<ul class="menu">
+			<li><a href="index.html">Pagrindinis</a></li>
+			<li><a href="filmai.html">Filmai</a></li>
+			<li><a href="serialai.html">Serialai</a></li>
+			<li><a href="animacija.html">Animacija</a></li>
+			<li><a href="rinkiniai.html">Rinkiniai</a></li>
+		</ul>
+		<!---search----->
+		<div class="search">
+			<input type="text" placeholder="Ieškoti"/>
+			<!--search-icon------->
+			<i class="fas fa-search"></i>
+		</div>
+	</nav>
+	<section id="main">
+        <!--showcase----------------------->
+        <!--heading------------->
+	<section>	
+        <ul>
+			<li>		
+				<div>	
+					</div>
+					<!--text--------->
+					<div class="movie-text">
+						<h2>Godzila prieš King Kongą</h2>
+						<p>Godzilla vs. Kong</p>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</section>
+	<section>
+		<ul>
+			<div class="movie">
+					<!--img----->
+					<div class="movie-img">													
+						<a href="godzilavskong2021.html"><img src="images/godzilavskong.jpg">
+						<div class="movie-text">
+						<strong>Filmas apie: The epic next chapter in the cinematic Monsterverse pits two of the greatest icons in motion picture history against one another - the fearsome Godzilla and the mighty Kong - with humanity caught in the balance.</strong>
+						<p>Aktoriai: Alexander Skarsgård Millie Bobby Brown Rebecca Hall Brian Tyree Henry Shun Oguri Eiza González Julian Dennison Lance Reddick Kyle Chandler Demián Bichir</p>
+						<p>Režisierius: Adam Wingard</p>
+						<p>Kalba Lietuvių (Mėgėjiškas, vienbalsis)</p>
+					</div>
+					</div>
+					</div>
+				</div>	
+		<div class="zanrai">
+			<h2>Filmai / Veiksmo / Nuotykių / Fantastiniai</h2>
+		</div>
+			<div class="iframe">
+				<iframe width="1000" height="600" src="https://dood.so/e/5kdspza1pqnejv6s7ht14benmy96vabv" scrolling="yes" frameborder="0" allowfullscreen="true"></iframe>
+			</div>
+		</ul>
+	</section>
+	<!--slider-script------->
+	<script>
+		  $(document).ready(function() {
+    $('#autoWidth').lightSlider({
+        autoWidth:true,
+        loop:true,
+        onSliderLoad: function() {
+            $('#autoWidth').removeClass('cS-hidden');
+        } 
+    });  
+  });
+	</script>
+</body>
+</html>
