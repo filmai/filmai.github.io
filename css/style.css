@@ -2,7 +2,7 @@ body{
 	margin: 0px;
 	padding: 0px;
 	font-family: poppins;
-	background-color: rgba(151,151,151,0.03);
+	background-color: #333333;
 }
 
 
@@ -13,6 +13,7 @@ body{
 }
 ul{
 	list-style: none;
+	background-color: #333333;
 }
 a{
 	text-decoration: none;
@@ -34,6 +35,7 @@ nav{
 }
 nav .menu{
 	display: flex;
+	background-color: #000000;
 }
 nav .menu li a{
 	height: 40px;
@@ -75,7 +77,7 @@ nav .menu li a:hover{
 }
 #main{
 	padding-top: 80px;
-	background-color: #ffffff;
+	background-color:  #333333;
 }
 .showcase-box{
     width:430px;
@@ -97,18 +99,20 @@ nav .menu li a:hover{
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	font-size: 1.2rem;
-	color: #1a1a1a;
+	color:  #cccccc;
+	background-color: #333333;
 }
 .cs-hidden{
 	overflow: visible !important;
 }
 .latest-heading{
+	background-color: #333333;
 	padding-left: 30px;
 	font-weight: 2000;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	font-size: 1.2rem;
-	color: #1a1a1a;
+	color: #cccccc;
 }
 .latest-movie-text{
 	width: 100%;
@@ -127,7 +131,7 @@ nav .menu li a:hover{
 	border-radius: 10px;
 	overflow: hidden;
 	width: 200px;
-	background-color: #ffffff;
+	background-color:#4d4d4d;
 }
 .latest-movie-img{
 	width: 100%;
@@ -150,7 +154,7 @@ nav .menu li a:hover{
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	font-size: 1.2rem;
-	color: #1a1a1a;
+	color: #cccccc;
 }
 
 .movie-text{
@@ -160,21 +164,23 @@ nav .menu li a:hover{
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	font-size: 1.2rem;
-	color: #1a1a1a;
-}
-
-.movie-text{
-	text-align: left;
-	padding-left: 5px;
-	font-weight: 2000;
-	letter-spacing: 1px;
-	text-transform: uppercase;
-	font-size: 1.2rem;
-	color: #1a1a1a;
+	color: #cccccc;
 }
 
 .latest-movie-text strong{
-	color: #3a3a3a;
+	color: #cccccc;
 	margin: 0px;
 }
 
+.latest{
+	color: #333333;
+	background-color: #333333;
+}
+
+div{
+	background-color: #333333;
+}
+
+section .main{
+	background-color: #333333;
+}
