@@ -23,7 +23,7 @@ nav{
 	align-items: center;
 	width: 100%;
 	border: 1px solid rgba(0,0,0,0.4);
-	background-color: #ffffff;
+	background-color: #0e0e0c;
 	position: fixed;
 	left: 0;
 	top: 0;
@@ -44,7 +44,7 @@ nav .menu li a{
 	font-size: 0.8rem;
 	text-transform: uppercase;
 	font-weight: 500;
-	color: #585858;
+	color: #dcdcd6;
 	letter-spacing: 1px;
 }
 .search{
@@ -68,7 +68,7 @@ nav .menu li a{
 	color: #3a3a3a;
 }
 nav .menu li a:hover{
-	background-color: #242424;
+	background-color: #a1a191;
 	color: #ffffff;
 	box-shadow: 5px 10px 30px rgba(53,53,53,0.1);
 	transition: all ease 0.2s;
