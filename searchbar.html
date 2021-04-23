@@ -1,0 +1,49 @@
+<Html>
+<script type="text/javascript">
+    document.getElementById('frmSearch').onsubmit = function() {
+        window.location = 'http://www.google.com/search?q=site:filmuxas.tk' + document.getElementById('txtSearch').value;
+        return false;
+    }
+</script>     
+<Head>      
+<Title>     
+Make a Search Bar using Html and CSS  
+</Title>  
+<style>  
+.searchbox {  
+float: left;  
+}  
+input[type=text] {  
+padding: 6px;  
+margin-top: 8px;  
+font-size: 17px;  
+border: none;  
+}  
+.searchbox button {  
+  
+padding: 8px;  
+margin-top: 10px;  
+margin-left: 10px;  
+background: orange;  
+font-size: 20px;  
+border: none;  
+cursor: pointer;  
+}  
+.searchbox button:hover {  
+background: blue;  
+}  
+</style>  
+</Head>  
+<Body>   
+Hello User!....   <br>  
+Html Tutorial   <br>  
+This page helps us to understand how to make a search bar . <br>  
+<form id="frmSearch" class="search2" method="get" action="default.html" />
+<input class="search2" id="txtSearch" type="text" name="serach_bar" size="31" maxlength="255"       
+value="" style="left: 396px; top: 153px; width: 293px; height: 26px;" />
+<input class="search1" type="submit" name="submition" value="Search" style=" padding-  
+bottom:20px; left: 691px; top: 153px; height: 23px" />
+<input class="search2" type="hidden" name="sitesearch" value="index.html" /> 
+</div>   
+</Body>  
+</Html>  
